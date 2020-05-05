@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook": "start-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/mskhirwar/storybook-chromatic/issues"
   },
-  "homepage": "https://github.com/mskhirwar/storybook-chromatic#readme"
+  "homepage": "https://github.com/mskhirwar/storybook-chromatic#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
 }
