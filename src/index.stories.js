@@ -5,7 +5,7 @@ export default { title: 'Button' };
 
 export const withText = () => (
     <Button>
-        <span style={{color: "red"}}>
+        <span style={{color: "green"}}>
             Hello Button
         </span>
     </Button>
